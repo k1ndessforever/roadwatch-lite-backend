@@ -1,5 +1,3 @@
-# Create comprehensive .gitignore
-@"
 # Environment variables
 .env
 .env.local
@@ -33,3 +31,7 @@ build/
 secrets/
 keys/
 config/secrets.json
+
+# Testing
+coverage/
+.nyc_output/
